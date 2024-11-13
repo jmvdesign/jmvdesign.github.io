@@ -1,12 +1,613 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My GitHub Page</title>
+	<meta charset="utf-8">
+	
+	<title>Jeff Voreis UI/UX Design</title>
+	<meta name="description" content="Supermoo UX Design">
+	<meta name="author" content="Jeff Voreis">		
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+		
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:200' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+	<script src="js/jquery.localscroll.js" type="text/javascript"></script> 
+	<script src="js/jquery.scrollTo.js" type="text/javascript"></script> 
+	
+	<script type="text/javascript">
+	$(document).ready(function() {
+	   $('nav').localScroll({duration:300});
+	});
+	</script>	
+	
+	<style>	
+	
+	
+	
+		#imgboarder { 
+		    border: 1px solid #797979;
+		}
+	
+		.serif{ 
+			font-family:'Droid Serif', serif;
+			font-weight:400;
+			}			
+
+		.sans{ 
+			font-family:'Droid Sans', sans-serif;	
+			font-weight:400;
+			}
+					
+		body{
+			margin:0px;
+			padding:0px;
+			font-size:100%;
+			}
+
+		img{
+			max-width:100%;
+			}
+				
+		nav{
+			width:100%;
+			height:52px;
+			background-color:black;
+			position:fixed;
+			top:0px;
+			/*  border-bottom: 1px solid #444;
+			*/
+			z-index:99;			
+			}
+		
+		nav ul{
+			list-style-type:none;
+			margin:0px;
+			padding:0px;
+			}
+	
+		nav ul li{
+			display:inline;
+			float:right;
+			}
+
+		nav ul li a:link, 
+		nav ul li a:visited{
+			font-family:"Droid Serif", georgia, serif;
+			font-weight:400;		
+			font-size:13.6px;
+			color:#BBBBBB;
+			background-color:#000;
+			padding:18px;		
+			line-height:16px;			
+			display:block;
+			text-decoration:none;
+			}
+
+		nav ul li a:hover{
+			background-color:#70CC89;
+			color:#fff;		
+			}
+				
+		#logoText{
+			font-family:"Titillium Web", sans-serif;
+			font-size:1.124em;
+			font-weight:200;		
+			color:#fff;
+			position:relative;
+			top:12px;
+			}
+			
+		img.cow{
+			padding-top:9px;
+			padding-left:16px;
+			padding-right:8px;			
+			display:inline;
+			float:left;			
+			}
+
+		a.cow{
+			text-decoration:none;
+			}			
+
+		#banner{				
+			width:100%;
+			height:450px;
+			background-color:#33363B;					
+			background-image:url("images/global/work.jpg");
+			background-repeat:no-repeat;
+			background-size:100%;
+			position:relative;
+			}			
+
+		#banner h3{
+			font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-weight:normal;
+			color:#fff;
+			text-align:center;		
+			font-size: 2em;
+			font-size: 5.0vw;
+			margin: 0 auto 0px;
+			text-transform:uppercase;
+			padding-top:160px;
+			}
+			
+		#banner h5{
+			font-family:'Droid Serif', serif;
+			font-weight:normal;
+			color:#70CC89;
+			text-align:center;		
+			font-size: 1em;
+			margin: 0 auto 0px;
+			opacity:.85;		
+			}			
+
+		#middle{
+			width:90%;
+			margin:auto;
+			margin-top:5%;
+			margin-bottom:100px;
+			}
+			
+			
+		#middle a.link caption
+		#middle a.visited caption{
+			text-decoration:none;
+			}
+			
+			
+			
+		.anchorSpace{
+			width:100%;
+			height:52px;
+			float:left;
+			}
+			
+		.anchorSpaceNoFloat{
+			width:100%;
+			height:52px;
+			}
+		
+		.anchorSpaceBottom{
+			width:100%;
+			height:52px;
+			float:left;
+			position:absolute;
+			bottom:0px;
+			}
+						
+		.tileSample{
+			width:31.333%;
+			padding-left:1%;
+			padding-right:1%;
+			padding-top:1%;
+			padding-bottom:2%;		
+			background-color:#fff;
+			float:left;
+			}
+
+		.tileSample:hover{
+			background-color:#e8e8e8;
+			}
+
+		.tileSample img{
+			padding-bottom:5px;
+			}	
+
+		.caption{
+		    font:400  16px/20px "Droid Serif", sans-serif;
+		    color:#666;
+			text-decoration:none;
+			}	
+
+/*skills code ------------------------------------------------------------*/						
+
+		#skillSection{
+			width:100%;
+			margin:auto;
+			margin-top:50px;			
+			background-color:#E7E7E7;
+			float:left;			
+			}
+			
+		#skillFrame{
+			width:90%;
+			margin:auto;
+			max-width:960px;
+			}
+
+		#skillTile{
+			width:31.333%;
+			padding-left:1%;
+			padding-right:1%;
+			padding-top:50px;
+			padding-bottom:30px;		
+			float:left;
+			}
+					
+		#skillTile h1{
+			font-family:"Droid Serif", sans-serif;
+			font-weight:400;
+			font-size:1em;
+			line-height:1.5;
+			padding-top:10px;
+		    color:#383838;
+			text-align:center;
+			text-shadow:0px 1px #fff;			
+			}
+					
+		#skillTile h2{
+			font-family:"Droid Serif", sans-serif;	
+			font-weight:400;
+			font-size:.875em;
+			line-height:1.8;
+			color:#888;
+			text-align:center;
+			text-shadow:0px 1px #fff;
+			}
+			
+/*skills code ------------------------------------------------------------*/						
+			
+/*footer code ------------------------------------------------------------*/						
+	
+		#footer{
+			width:100%;
+			height:560px;
+			background-color:#1B1B1B;
+			padding-top:60px;
+			float:left;				
+			}
+	
+		.company{
+			font-family:"Titillium Web", sans-serif;
+		  	font-size:1.125em;
+			font-weight:200;
+			color:#fff;
+			padding-bottom:3px;
+			border-bottom: 3px solid #70CC89;
+			display:inline;
+			}
+		
+		p{ 
+			font-family:'Droid Sans', sans-serif;	
+			font-weight:400;
+			font-size:.875em;
+			line-height:12px;		  
+			}
+			
+		p.normal{
+			color:#9A9A99;
+			}
+			
+		p.dark{
+			color:#545454;
+			}
+			
+		p.darkFlashLink{
+			color:#545454;
+			}	
+			
+		#footer a:link, #footer a:visited {
+			text-decoration:none;
+			color:#545454;			
+			}
+		
+		#footer a:hover {
+			text-decoration:underline;
+			color:#9A9A99;			
+			}
+
+		#addressContainer{
+			width:140px;
+			margin-left:6%;
+			float:left;
+			}
+		
+		#mapContainer{
+			height:100%;
+			margin-left:25%;
+			margin-right:6%;			
+			background-image:url("images/contact/map.png");
+			background-repeat:no-repeat;
+			background-size:100%;
+			}
+
+/*footer code ------------------------------------------------------------*/			
+					
+
+/*media queries  ------------------------------------------------------------*/			
+	
+		@media only screen and (min-width:1500px){
+			.tileSample{
+				width:23%;
+				}														
+			}
+			
+		@media only screen and (max-width:840px){
+			.tileSample{
+				width:48%;
+				}								
+			#skillTile{
+				width:48%;				
+				}					
+			nav ul li a:link, 
+			nav ul li a:visited{
+				padding-left:14px;
+				padding-right:14px;		
+				}
+			p{ 				
+				line-height:1.2em;		  
+				}				
+			#banner h3{
+				font-size: 6.0vw;
+				}
+				
+			#skillFrame{
+				max-width:600px;
+				}																												
+			}
+	
+		@media only screen and (max-width:510px){			
+		
+			#logoText{
+				display:none;
+				}
+			
+			#banner{				
+				height:200px;
+				}				
+			#banner h3{
+				font-size: 2em;
+				font-size: 5.0vw;
+				padding-top:80px;
+				}			
+			.tileSample{
+				width:100%;
+				}
+			#skillTile{
+				width:100%;
+				}				
+			#mapContainer{
+				visibility:hidden;
+				}									
+			#skillFrame{
+				max-width:300px;
+				}																															
+			}
+						
+				
+/*media queries  ------------------------------------------------------------*/			
+								
+								
+	</style>	
+	
+	
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->	
 </head>
-<body>
-  <h1>Welcome to My GitHub Page!</h1>
-  <p>This is a simple static page hosted on GitHub Pages.</p>
+<body>	
+	
+	<nav>		
+		<ul>	
+			<li><a class="navigation" href="#4">Contact</a></li>			
+			<li><a class="navigation" href="#3">Skills</a></li>
+			<li><a class="navigation" href="#2">Design</a></li>
+		</ul>			
+		<a class="cow" href="#1">	
+			<img class="cow" src="images/global/supermooLogo.png" height="35" width="58"></img>		
+			<font id="logoText">Supermoo Design</font>	
+		</a>		
+	</nav>	
+	
+
+	<div class="anchorSpaceNoFloat"><a name="1"></a></div>		
+	<div id="banner">		
+		<h3>User Experience Design</h3>	
+		<h5>Intuitive, Data-Driven Web & Mobile Applications</h5>
+		<div class="anchorSpaceBottom"><a name="2"></a></div>							
+	</div>
+	
+	
+	<!-- Begin Sample Tiles Section-->
+	<div id="middle">
+		
+
+		<a href="detail/vt.html">	
+			<div class="tileSample">
+				<img src="images/home/tile_vt.png"></img>
+				<span class="caption">Virginia Tech Android</span>			
+			</div>
+		</a>		
+		<a href="detail/optimizer.html">	
+			<div class="tileSample">
+				<img src="images/home/tile_microsoft.svg"></img>
+				<span class="caption">Microsoft Cloud Optimizer</span>			
+			</div>
+		</a>										
+		<a href="detail/bulls.html">	
+			<div class="tileSample">
+				<img src="images/home/tile_dataBulls.png"></img>
+				<span class="caption">Chicago Bulls iPhone</span>
+			</div>
+		</a>					
+		<a href="detail/nab.html">
+			<div class="tileSample">
+				<img src="images/home/tile_nab.png"></img>
+				<span class="caption">National Australia Bank</span>
+			</div>
+		</a>
+		<a href="detail/spirent.html">	
+			<div class="tileSample">
+				<img src="images/home/tile_spirent.png"></img>
+				<span class="caption">Spirent Network Software</span>			
+			</div>
+		</a>				
+		<a href="detail/fineco.html">
+			<div class="tileSample">
+				<img src="images/home/tile_fineco.png"></img>
+				<span class="caption">Fineco Trading Platform</span>
+			</div>
+		</a>		
+		<a href="detail/ci.html">	
+			<div class="tileSample">
+				<img src="images/home/tile_campusInsiders.png"></img>
+				<span class="caption">Campus Insiders iPhone</span>				
+			</div>
+		</a>		
+		<a href="detail/book.html">	
+			<div class="tileSample">
+				<img src="images/home/tile_book.png"></img>
+				<span class="caption">Google Online Booking</span>			
+			</div>
+		</a>
+		<a href="detail/spyder.html">
+			<div class="tileSample">
+				<img src="images/home/tile_spyder.png"></img>
+				<span class="caption">Spyder Sports Illustration</span>				
+			</div>
+		</a>			
+		<a href="detail/steamboat.html">
+			<div class="tileSample">
+				<img src="images/home/tile_steamboat.png"></img>							
+				<span class="caption">Steamboat Springs Illustration</span>
+			</div>
+		</a>
+		<a href="detail/cbs.html">
+			<div class="tileSample">
+				<img src="images/home/tile_cbs.png"></img>
+				<span class="caption">CBS Sports iPad</span>
+			</div>
+		</a>								
+		<a href="detail/derivx.html">	
+			<div class="tileSample">
+				<img src="images/home/tile_derivx.png"></img>
+				<span class="caption">Derivix Trading Interface</span>				
+			</div>
+		</a>	
+		<a href="detail/acc.html">
+			<div class="tileSample">
+				<img src="images/home/tile_acc.png"></img>
+				<span class="caption">ACC Mobile Website</span>
+			</div>
+		</a>
+		<a href="detail/illustration.html" >
+			<div class="tileSample">
+				<img src="images/home/tile_illustration.png"></img>			
+				<span class="caption">Dot Illustration</span>
+			</div>
+		</a>		
+		<a href="detail/logos.html">
+			<div class="tileSample">
+				<img src="images/home/tile_logos.png"></img>							
+				<span class="caption">Illustration & Logo Design</span>
+			</div>
+		</a>		
+		<a href="detail/tree.html">
+			<div class="tileSample">
+				<img src="images/home/tile_tree.png"></img>				
+				<span class="caption">TreeRemoval.com</span>
+			</div>
+		</a>
+		<a href="detail/ha.html">	
+			<div class="tileSample">
+				<img src="images/home/tile_ha.png"></img>
+				<span class="caption">HomeAdvisor Search Results</span>			
+			</div>
+		</a>		
+		<a href="detail/fourteeners.html">
+			<div class="tileSample">
+				<img src="images/home/tile_fourteeners.png"></img>							
+				<span class="caption">Colorado Fourteeners Visualization</span>
+			</div>
+		</a>
+		
+		
+		<a href="detail/raycom.html">
+			<div class="tileSample">
+				<img src="images/home/tile_raycom.png"></img>				
+				<span class="caption">Raycom Media iPad</span>
+			</div>
+		</a>								
+		<a href="detail/userflow.html">	
+			<div class="tileSample">
+				<img src="images/home/tile_userflow.png"></img>
+				<span class="caption">User Flow Documentation</span>			
+			</div>
+		</a>
+		<a href="detail/cinema.html">	
+			<div class="tileSample">
+				<img src="images/home/tile_cinema.png"></img>
+				<span class="caption">iPhone Cinema App</span>			
+			</div>
+		</a>
+		<a href="detail/duke.html">	
+			<div class="tileSample">
+				<img src="images/home/tile_duke.png"></img>
+				<span class="caption">Duke Energy Calculator</span>			
+			</div>
+		</a>				
+	</div>
+
+
+	<div class="anchorSpace"><a name="3"></a></div>		
+	
+	
+	<div id="skillSection">				
+		<div id="skillFrame">
+			
+				<div id="skillTile">
+					<img src="images/skill/cog.png"></img>
+					<h1>UI/UX Design</h1>
+					<h2>The common reference point around user expectations, business goals and data. Focus on the user and all else will fall into place.</h2>
+				</div>
+			
+				<div id="skillTile">
+					<img src="images/skill/screen.png"></img>
+					<h1>Mobile & Web</h1>
+					<h2>Success comes through rapid iterations, interactive protoypes and working with functional teams to reach a common goal.</h2>
+				</div>
+				
+				<div id="skillTile">
+					<img src="images/skill/cloud.png"></img>
+					<h1>Illustration & Code</h1>
+					<h2>I'm inspired to create things that are both useful and beautiful. Artwork or code, it should be artistic and technological.
+					</h2>
+				</div>
+				
+				<div class="anchorSpace"><a name="4"></a></div>				
+		</div>			
+	</div>
+	
+
+	
+	<div id="footer">		
+		<div id="addressContainer">
+			<p class="company">Supermoo Design</p><p><br><br>					
+			<p class="normal">Jeffery M. Voreis</p>
+			<p class="dark">Auckland, NZ</p>
+			<p class="dark">021-0299-4475</p><br>
+					
+			<p class="normal">jeff.voreis@gmail.com</p>			
+			<p class="dark"> <a href="https://www.linkedin.com/pub/jeff-voreis/53/815/362">LinkedIn Profile</a></p>
+			<p class="dark"><a href="images/contact/resume.pdf">View Resume</a></p>
+								
+		</div>				
+		<div id="mapContainer"></div>				
+	</div>
+	
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-100124466-1', 'auto');
+	  ga('send', 'pageview');
+	</script>	
+							
 </body>
 </html>
