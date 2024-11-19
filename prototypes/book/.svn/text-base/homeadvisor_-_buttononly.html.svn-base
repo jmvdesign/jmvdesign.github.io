@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>HomeAdvisor - ButtonOnly</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/homeadvisor_-_buttononly/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css" type="text/css" rel="stylesheet"/>
+    <link href="<link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/homeadvisor_-_buttononly/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u838" class="ax_default shape">
+        <div id="u838_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u839" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u840" class="ax_default image">
+        <img id="u840_img" class="img " src="images/complete_ha_microform/u7.jpg"/>
+        <!-- Unnamed () -->
+        <div id="u841" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u842" class="ax_default shape">
+        <img id="u842_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u843" class="text" style="visibility: visible;">
+          <p><span>Home Line Renovation</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u844" class="ax_default shape">
+        <img id="u844_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u845" class="text" style="visibility: visible;">
+          <p><span>Water Softening Equipment Supplier </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u846" class="ax_default shape">
+        <img id="u846_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u847" class="text" style="visibility: visible;">
+          <p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">Address:</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"> Golden, CO 80401</span></p><p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">Phone:</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"> (303) 963-7200</span></p><p><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;">Hours:</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"> Open today 7:00 am - 4:00 pm&nbsp; </span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u848" class="ax_default shape">
+        <img id="u848_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u849" class="text" style="visibility: visible;">
+          <p><span>Reviews</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u850" class="ax_default shape">
+        <div id="u850_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u851" class="text" style="visibility: visible;">
+          <p><span>Directions</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u852" class="ax_default shape">
+        <div id="u852_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u853" class="text" style="visibility: visible;">
+          <p><span>Write a review</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u854" class="ax_default">
+
+        <!-- Unnamed (Image) -->
+        <div id="u855" class="ax_default image">
+          <img id="u855_img" class="img " src="images/complete_ha_microform/u20.png"/>
+          <!-- Unnamed () -->
+          <div id="u856" class="text" style="display: none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u857" class="ax_default paragraph">
+          <div id="u857_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u858" class="text" style="visibility: visible;">
+            <p><span>We moved to a new home that already had a reverse osmosis system, water softener system, and tankless water heater.</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u859" class="ax_default paragraph">
+          <div id="u859_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u860" class="text" style="visibility: visible;">
+            <p><span>I can't imagine better customer service from a contractor.</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u861" class="ax_default paragraph">
+          <div id="u861_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u862" class="text" style="visibility: visible;">
+            <p><span>The contractor was very nice and very helpful, answering all of my questions about the systems.</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u863" class="ax_default">
+
+        <!-- Unnamed (Group) -->
+        <div id="u864" class="ax_default">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u865" class="ax_default shape">
+            <img id="u865_img" class="img " src="resources/images/transparent.gif"/>
+            <!-- Unnamed () -->
+            <div id="u866" class="text" style="visibility: visible;">
+              <p><span>24 Google reviews</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u867" class="ax_default fontawesome">
+            <div id="u867_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u868" class="text" style="visibility: visible;">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u869" class="ax_default fontawesome">
+            <div id="u869_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u870" class="text" style="visibility: visible;">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u871" class="ax_default fontawesome">
+            <div id="u871_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u872" class="text" style="visibility: visible;">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u873" class="ax_default fontawesome">
+            <div id="u873_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u874" class="text" style="visibility: visible;">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u875" class="ax_default fontawesome">
+            <div id="u875_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u876" class="text" style="visibility: visible;">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u877" class="ax_default shape">
+            <img id="u877_img" class="img " src="resources/images/transparent.gif"/>
+            <!-- Unnamed () -->
+            <div id="u878" class="text" style="visibility: visible;">
+              <p><span>4.7</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u879" class="ax_default shape">
+        <img id="u879_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u880" class="text" style="visibility: visible;">
+          <p><span>View all Google reviews</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u881" class="ax_default shape">
+        <img id="u881_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u882" class="text" style="visibility: visible;">
+          <p><span>Book an appointment</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u883" class="ax_default horizontal_line">
+        <img id="u883_img" class="img " src="images/complete_ha_microform/u48.png"/>
+        <!-- Unnamed () -->
+        <div id="u884" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u885" class="ax_default shape">
+        <img id="u885_img" class="img " src="images/complete_ha_microform/u50.png"/>
+        <!-- Unnamed () -->
+        <div id="u886" class="text" style="visibility: visible;">
+          <p><span>i</span></p>
+        </div>
+      </div>
+
+      <!-- ChainButton (Rectangle) -->
+      <div id="u887" class="ax_default shape" data-label="ChainButton">
+        <div id="u887_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u888" class="text" style="visibility: visible;">
+          <p><span>Book Now</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u889" class="ax_default image">
+        <img id="u889_img" class="img " src="images/complete_ha_microform/u54.png"/>
+        <!-- Unnamed () -->
+        <div id="u890" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u891" class="ax_default shape">
+        <img id="u891_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u892" class="text" style="visibility: visible;">
+          <p><span>homeadvisor.com</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u893" class="ax_default horizontal_line">
+        <img id="u893_img" class="img " src="images/complete_ha_microform/u48.png"/>
+        <!-- Unnamed () -->
+        <div id="u894" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- ContinueButton (Rectangle) -->
+      <div id="u895" class="ax_default shape" data-label="ContinueButton">
+        <img id="u895_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u896" class="text" style="visibility: visible;">
+          <p><span>Continue booking</span></p>
+        </div>
+      </div>
+
+      <!-- ToolTipHover (Dynamic Panel) -->
+      <div id="u897" class="ax_default ax_default_hidden" data-label="ToolTipHover" style="display: none; visibility: hidden">
+        <div id="u897_state0" class="panel_state" data-label="State1">
+          <div id="u897_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u898" class="ax_default shape">
+              <div id="u898_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u899" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u900" class="ax_default shape">
+              <div id="u900_div" class=""></div>
+              <!-- Unnamed () -->
+              <div id="u901" class="text" style="visibility: visible;">
+                <p><span>You will be directed to the business site to complete your booking.</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u902" class="ax_default horizontal_line">
+              <img id="u902_img" class="img " src="images/complete_ha_microform/u225.png"/>
+              <!-- Unnamed () -->
+              <div id="u903" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Horizontal Line) -->
+            <div id="u904" class="ax_default horizontal_line">
+              <img id="u904_img" class="img " src="images/complete_ha_microform/u227.png"/>
+              <!-- Unnamed () -->
+              <div id="u905" class="text" style="display: none; visibility: hidden">
+                <p><span></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u906" class="ax_default box_2">
+        <div id="u906_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u907" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
