@@ -4,11 +4,64 @@
 <html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width; initial-scale=1.0" />
-	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:200' rel='stylesheet' type='text/css'>	
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:200, 400' rel='stylesheet' type='text/css'>	
 	<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 	<title>detail</title>
-	<style>		
+	<style>
+
+	/*newNavPlusBack*/
+
+	/* Navbar styling */
+	    .navbar {
+	      width: 100%; /* Full width */
+	      height: 52px; /* Adjust height as needed */
+	      background-color: black; /* Black background */
+	      display: flex; /* Enables flexbox */
+	      align-items: center; /* Vertically centers content */
+	      padding: 0 16px; /* Adds padding for inner spacing */
+	    }
+
+	    /* Container to center content vertically */
+	    .icon-container {
+	      display: flex; /* Enables flexbox */
+	      align-items: center; /* Vertically centers content */
+	      height: 100px; /* Adjust to your desired height */
+	    }
+
+	    /* Link styling */
+	    .arrow-link {
+	      text-decoration: none; /* Remove underline */
+	      color: #fff; /* Default color */
+	      font-size: 20px; /* Adjust icon size */
+	    }
+
+	    /* Hover effect */
+	    .arrow-link:hover {
+	      color: #70CC89; /* Change to desired hover color */
+	       
+	    }
+
+	    /* NewLogoText */
+    	.logoText{
+			display: inline-block; 
+			padding-left: 4px; 
+			font-family: Titillium Web, sans-serif;
+			font-weight: 400;
+			font-size: 18px;
+			color: #fff;
+			line-height: 1.5;
+			text-align: center;
+			vertical-align: 2px;
+		}	
+
+		.logoText:hover {
+			color: #70CC89;
+		}
+
+
+			
 	/*fonts*/	
 		.serif{ 
 			font-family:'Droid Serif', serif;
@@ -234,13 +287,14 @@
 </head>
 <body>	
 
-	<nav>
-		
-		<a class="cow" href="../index.html">	
-			<!-- <img class="cow" src="../images/global/supermooLogo.png" height="35" width="58"></img>	 -->	
-			<font id="logoText">JMV Design</font>	
-		</a>														
-	</nav>	
+    <div class="navbar">
+      <div class="icon-container">
+        <a href="../index.html" class="arrow-link">
+          <i class="fas fa-arrow-left"></i>
+          <span class="logoText">JMV Design</span>
+        </a>
+      </div>
+    </div>	
 	
 	<div class="frame">
 		<h3 class="sans title">Spyder Sports</h3>
