@@ -3,12 +3,74 @@
 
 <html lang="en">
 <head>
+	<!-- GA4 Tracking Code Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-J67GK3GSPL"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-J67GK3GSPL');
+	</script>
+
 	<meta name="viewport" content="width=device-width; initial-scale=1.0" />
-	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:200' rel='stylesheet' type='text/css'>	
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:200, 400' rel='stylesheet' type='text/css'>	
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 	<title>detail</title>
-	<style>		
+	<style>
+
+	/*newNavPlusBack*/
+
+	/* Navbar styling */
+	    .navbar {
+	      width: 100%; /* Full width */
+	      height: 52px; /* Adjust height as needed */
+	      background-color: black; /* Black background */
+	      display: flex; /* Enables flexbox */
+	      align-items: center; /* Vertically centers content */
+	      padding: 0 16px; /* Adds padding for inner spacing */
+	    }
+
+	    /* Container to center content vertically */
+	    .icon-container {
+	      display: flex; /* Enables flexbox */
+	      align-items: center; /* Vertically centers content */
+	      height: 100px; /* Adjust to your desired height */
+	    }
+
+	    /* Link styling */
+	    .arrow-link {
+	      text-decoration: none; /* Remove underline */
+	      color: #fff; /* Default color */
+	      font-size: 20px; /* Adjust icon size */
+	    }
+
+	    /* Hover effect */
+	    .arrow-link:hover {
+	      color: #70CC89; /* Change to desired hover color */
+	       
+	    }
+
+	    /* NewLogoText */
+    	.logoText{
+			display: inline-block; 
+			padding-left: 4px; 
+			font-family: Titillium Web, sans-serif;
+			font-weight: 400;
+			font-size: 18px;
+			color: #fff;
+			line-height: 1.5;
+			text-align: center;
+			vertical-align: 2px;
+		}	
+
+		.logoText:hover {
+			color: #70CC89;
+		}
+
+
+			
 	/*fonts*/	
 		.serif{ 
 			font-family:'Droid Serif', serif;
@@ -87,7 +149,7 @@
 		.frame{
 			width:95%;
 			margin:auto;
-			max-width:1244px;
+			max-width:1290px;
 			}
 
 		.frame img{
@@ -149,6 +211,7 @@
 			color:#fff;
 			position:relative;
 			top:12px;
+			margin:16px;
 			}		
 			
 /*footer code ------------------------------------------------------------*/						
@@ -233,21 +296,20 @@
 </head>
 <body>	
 
-	<nav>
-
-		<a class="cow" href="../index.html">	
-			<img class="cow" src="../images/global/supermooLogo.png" height="35" width="58"></img>		
-			<font id="logoText">Supermoo Design</font>	
-		</a>														
-	</nav>	
+    <div class="navbar">
+      <div class="icon-container">
+        <a href="../index.html" class="arrow-link">
+          <i class="fas fa-arrow-left"></i>
+          <span class="logoText">JMV Design</span>
+        </a>
+      </div>
+    </div>
 	
 	<div class="frame">
-		<h3 class="sans title">Microsoft Asset Management</h3>
-		<img src="../images/detail/detail_windows.png">			
+		<h3 class="sans title"></h3>
+		<img src="../images/detail/detail_eroad.png" style="border: 1px solid #999999;">			
 		<div class="columnCount">
-			<span class="sansText">The Microsoft asset management tool gives IT professionals a way to effectively track their software, spend, usage and waste. The Windows Server page lets users model their complex server environment in order to calculate the number of software licenses that are needed.
-
-			With the complexity of clusters and virtual machines the challenge was to present information in an elegant manner and to keep the interactions highly intuitive. The solution was to start minimal and let users incrementally build their environment up in small blocks. Several rounds of user testing refined the approach over time and validated the thinking on this project.</span>
+			<span class="sansText">The Microsoft Cloud Optimizer allows IT professionals to track the spend, usage, efficiency and waste of their Office 365 software. Insights into ownership, storage, savings opportunities and software environment are brought together in a single, well organized, easy to read dashboard for complete visibility and control. The challenge was to create something useful from an IT manager's point of view. By continuously listening, testing and iterating with end users, we were able to identify and satisfy a specific customer need, which created a positive business outcome.</span>
 	
 			
 		</div>	
@@ -256,7 +318,7 @@
 	
 	<div id="footer">		
 		<div id="addressContainer">
-			<p class="company">Supermoo Design</p><p><br><br>					
+			<p class="company">JMV Design</p><p><br><br>					
 			<p class="normal">Jeffery M. Voreis</p>
 			<p class="dark">Auckland, NZ</p>
 			<p class="dark">021-0299-4475</p><br>
@@ -268,16 +330,6 @@
 		</div>				
 		<div id="mapContainer"></div>				
 	</div>
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-100124466-1', 'auto');
-	  ga('send', 'pageview');
-	</script>		
 						
 </body>
 </html>
