@@ -10,7 +10,7 @@ Hi, I'm Jeff Voreis, a passionate UX designer with a focus on creating user-cent
 
 
 ## Featured Projects
-- Virginia Tech Android - People love college sporting events but can’t always attend games or watch on tv. This app let's Virgina Tech fans watch games anytime on their phones and increases revenue for the school.
+- Virginia Tech Android - People love college sporting events but can’t always attend games in person or watch on tv. This app let's Virgina Tech fans watch games anytime on their phones and increases revenue for the school.
 - Microsoft Cloud Optimizer - IT professionals are moving away from On-Premise Software and moving to Cloud-Based Software. But they can lose sight of their overall spending. The Cloud Optimizer offers full visibility of usage and spending.
 - Cinema App - Movie enthusiasts have limited choices. Crowdsourced theater screenings give large groups more bargaining power.
 For more detailed case studies, click on the respective project links in the navigation.
