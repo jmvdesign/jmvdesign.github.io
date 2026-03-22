@@ -168,14 +168,25 @@
 			border: 1px solid var(--tile-border);
 			border-radius: 6px;
 			overflow: hidden;
-			transition: transform 0.2s, box-shadow 0.2s;
 			text-decoration: none;
 			display: block;
+			position: relative;
 		}
 
 		.tileSample:hover {
-			transform: translateY(-3px);
-			box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+			border-color: #888;
+		}
+
+		.tileSample::after {
+			content: '';
+			position: absolute;
+			inset: 0;
+			background: rgba(0,0,0,0);
+			pointer-events: none;
+		}
+
+		.tileSample:hover::after {
+			background: rgba(0,0,0,0.12);
 		}
 
 		.tileSample img {
