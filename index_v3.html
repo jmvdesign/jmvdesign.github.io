@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- GA4 Tracking Code -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-J67GK3GSPL"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-J67GK3GSPL');
+	</script>
+
+	<meta charset="utf-8">
+	<title>Jeff Voreis UI/UX Design</title>
+	<meta name="description" content="Jeff Voreis UI/UX Design Portfolio">
+	<meta name="author" content="Jeff Voreis">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Open Graph tags for social sharing -->
+	<meta property="og:title" content="Jeff Voreis UI/UX Design">
+	<meta property="og:description" content="I love to design intuitive digital experiences that solve real-world user problems.">
+	<meta property="og:type" content="website">
+
+	<!-- Single combined Google Fonts request -->
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+
+	<style>
+
+		/* ── Reset & base ── */
+		*, *::before, *::after {
+			box-sizing: border-box;
+		}
+
+		:root {
+			--accent:        #70CC89;
+			--accent-dark:   #4ea868;
+			--bg-nav:        #0D0D0D;
+			--bg-page:       #F7F7F5;
+			--bg-skills:     #EFEFED;
+			--bg-footer:     #141414;
+			--text-heading:  #1A1A1A;
+			--text-mid:      #555555;
+			--text-muted:    #999999;
+			--tile-bg:       #FFFFFF;
+			--tile-border:   #E2E2E0;
+			--font-sans:     'Inter', sans-serif;
+			--font-serif:    'Lora', serif;
+		}
+
+		html {
+			scroll-behavior: smooth;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+			font-size: 100%;
+			font-family: var(--font-sans);
+			background: var(--bg-page);
+		}
+
+		img {
+			max-width: 100%;
+			display: block;
+		}
+
+		/* ── Nav ── */
+		nav {
+			width: 100%;
+			height: 52px;
+			background-color: var(--bg-nav);
+			position: fixed;
+			top: 0;
+			z-index: 99;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 0 24px;
+		}
+
+		#logoText {
+			font-family: var(--font-sans);
+			font-size: 0.95em;
+			font-weight: 500;
+			color: #fff;
+			text-decoration: none;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			gap: 2px;
+		}
+
+		nav ul li a {
+			font-family: var(--font-sans);
+			font-size: 0.75rem;
+			font-weight: 400;
+			color: var(--text-muted);
+			padding: 8px 14px;
+			text-decoration: none;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			border-radius: 3px;
+			transition: background-color 0.2s, color 0.2s;
+		}
+
+		nav ul li a:hover {
+			background-color: var(--accent);
+			color: #fff;
+		}
+
+		/* ── Banner ── */
+		#banner {
+			width: 100%;
+			height: 450px;
+			background-color: #2A2D32;
+			background-image: url("images/global/work.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			padding: 0 24px;
+		}
+
+		#banner h1 {
+			font-family: var(--font-sans);
+			font-weight: 300;
+			color: #fff;
+			font-size: clamp(2rem, 5vw, 3.5rem);
+			margin: 0 0 14px;
+			text-transform: uppercase;
+			letter-spacing: 0.12em;
+		}
+
+		#banner p {
+			font-family: var(--font-serif);
+			font-style: italic;
+			font-weight: 400;
+			color: var(--accent);
+			font-size: 1rem;
+			margin: 0;
+			opacity: 0.95;
+			white-space: nowrap;
+			line-height: 1.6;
+		}
+
+		/* ── Portfolio grid ── */
+		#middle {
+			width: 92%;
+			max-width: 1400px;
+			margin: 48px auto 80px;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 16px;
+		}
+
+		.tileSample {
+			background-color: var(--tile-bg);
+			border: 1px solid var(--tile-border);
+			border-radius: 6px;
+			overflow: hidden;
+			transition: transform 0.2s, box-shadow 0.2s;
+			text-decoration: none;
+			display: block;
+		}
+
+		.tileSample:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+		}
+
+		.tileSample img {
+			width: 100%;
+		}
+
+		.caption {
+			font-family: var(--font-sans);
+			font-size: 0.8rem;
+			font-weight: 400;
+			color: var(--text-mid);
+			padding: 10px 14px 12px;
+			display: block;
+			letter-spacing: 0.02em;
+		}
+
+		/* ── Skills section ── */
+		#skillSection {
+			background-color: var(--bg-skills);
+			padding: 64px 0;
+		}
+
+		#skillFrame {
+			width: 90%;
+			max-width: 960px;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 32px;
+		}
+
+		.skillTile {
+			padding: 24px;
+			text-align: center;
+		}
+
+		.skillTile img {
+			margin: 0 auto 20px;
+		}
+
+		.skillTile h2 {
+			font-family: var(--font-sans);
+			font-weight: 500;
+			font-size: 0.95rem;
+			color: var(--text-heading);
+			margin: 0 0 12px;
+			letter-spacing: 0.04em;
+			text-transform: uppercase;
+		}
+
+		.skillTile p {
+			font-family: var(--font-serif);
+			font-weight: 400;
+			font-size: 0.875rem;
+			color: #777;
+			line-height: 1.9;
+			margin: 0;
+		}
+
+		/* ── Footer ── */
+		footer {
+			background-color: var(--bg-footer);
+			padding: 64px 0;
+			display: flex;
+			min-height: 380px;
+		}
+
+		#addressContainer {
+			width: 200px;
+			margin-left: 6%;
+			flex-shrink: 0;
+		}
+
+		.company {
+			font-family: var(--font-sans);
+			font-size: 0.95rem;
+			font-weight: 500;
+			color: #fff;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			padding-bottom: 6px;
+			border-bottom: 2px solid var(--accent);
+			display: inline-block;
+			margin-bottom: 20px;
+		}
+
+		.footer-line {
+			font-family: var(--font-sans);
+			font-size: 0.8rem;
+			line-height: 1.6;
+			margin: 5px 0;
+		}
+
+		.footer-line.light { color: #7A7A7A; }
+		.footer-line.dark  { color: #4A4A4A; }
+
+		footer a:link,
+		footer a:visited {
+			text-decoration: none;
+			color: #4A4A4A;
+		}
+
+		footer a:hover {
+			text-decoration: underline;
+			color: #7A7A7A;
+		}
+
+		#mapContainer {
+			flex: 1;
+			margin: 0 6%;
+			background-image: url("images/contact/map.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-radius: 6px;
+			opacity: 0.85;
+		}
+
+		/* ── Scroll anchor offset ── */
+		.anchor {
+			display: block;
+			height: 52px;
+			margin-top: -52px;
+			visibility: hidden;
+		}
+
+		/* ── Media queries ── */
+		@media (max-width: 1024px) {
+			#middle {
+				grid-template-columns: repeat(3, 1fr);
+			}
+			#skillFrame {
+				grid-template-columns: repeat(3, 1fr);
+			}
+		}
+
+		@media (max-width: 768px) {
+			#middle {
+				grid-template-columns: repeat(2, 1fr);
+			}
+			#skillFrame {
+				grid-template-columns: repeat(2, 1fr);
+			}
+			#banner p {
+				white-space: normal;
+			}
+		}
+
+		@media (max-width: 480px) {
+			#banner {
+				height: 220px;
+			}
+			#banner p {
+				white-space: normal;
+				font-size: 0.875rem;
+			}
+			#middle {
+				grid-template-columns: 1fr;
+			}
+			#skillFrame {
+				grid-template-columns: 1fr;
+			}
+			#mapContainer {
+				display: none;
+			}
+			footer {
+				min-height: auto;
+			}
+		}
+
+	</style>
+</head>
+<body>
+
+	<nav>
+		<a href="#home" id="logoText">JMV Design</a>
+		<ul>
+			<li><a href="#design">Design</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!-- Banner -->
+	<header id="home">
+		<span class="anchor"></span>
+		<div id="banner">
+			<h1>Jeff Voreis</h1>
+			<p>I love to design intuitive digital experiences that solve real-world user problems.</p>
+		</div>
+	</header>
+
+	<!-- Portfolio grid -->
+	<main>
+		<span class="anchor" id="design"></span>
+		<section id="middle" aria-label="Design portfolio">
+
+			<a href="detail/inspect.html" class="tileSample">
+				<img src="images/home/tile_inspect.png" alt="EROAD Inspect project">
+				<span class="caption">EROAD Inspect</span>
+			</a>
+
+			<a href="detail/kernel.html" class="tileSample">
+				<img src="images/home/tile_kernel.png" alt="Kernel Wealth project">
+				<span class="caption">Kernel Wealth</span>
+			</a>
+
+			<a href="detail/cinema.html" class="tileSample">
+				<img src="images/home/tile_cinema.png" alt="Cinemob Movie App project">
+				<span class="caption">Cinemob Movie App</span>
+			</a>
+
+			<a href="detail/book.html" class="tileSample">
+				<img src="images/home/tile_book.png" alt="Google Online Booking project">
+				<span class="caption">Google Online Booking</span>
+			</a>
+
+			<a href="detail/optimizer.html" class="tileSample">
+				<img src="images/home/tile_microsoft.svg" alt="Microsoft Cloud Optimizer project">
+				<span class="caption">Microsoft Cloud Optimizer</span>
+			</a>
+
+			<a href="detail/bulls.html" class="tileSample">
+				<img src="images/home/tile_dataBulls.png" alt="Chicago Bulls iPhone app project">
+				<span class="caption">Chicago Bulls iPhone</span>
+			</a>
+
+			<a href="detail/vt.html" class="tileSample">
+				<img src="images/home/tile_vt.png" alt="Virginia Tech Android app project">
+				<span class="caption">Virginia Tech Android</span>
+			</a>
+
+			<a href="detail/cbs.html" class="tileSample">
+				<img src="images/home/tile_cbs.png" alt="CBS Sports iPad app project">
+				<span class="caption">CBS Sports iPad</span>
+			</a>
+
+			<a href="detail/spirent.html" class="tileSample">
+				<img src="images/home/tile_spirent.png" alt="Spirent Network Software project">
+				<span class="caption">Spirent Network Software</span>
+			</a>
+
+			<a href="detail/fineco.html" class="tileSample">
+				<img src="images/home/tile_fineco.png" alt="Fineco Trading Platform project">
+				<span class="caption">Fineco Trading Platform</span>
+			</a>
+
+			<a href="detail/spyder.html" class="tileSample">
+				<img src="images/home/tile_spyder.png" alt="Spyder Sports Team Venom project">
+				<span class="caption">Spyder Sports - Team Venom</span>
+			</a>
+
+			<a href="detail/steamboat.html" class="tileSample">
+				<img src="images/home/tile_steamboat.png" alt="Steamboat Springs Illustration project">
+				<span class="caption">Steamboat Springs Illustration</span>
+			</a>
+
+		</section>
+
+		<!-- Skills -->
+		<span class="anchor" id="skills"></span>
+		<section id="skillSection" aria-label="Skills">
+			<div id="skillFrame">
+
+				<div class="skillTile">
+					<img src="images/skill/cog.png" alt="UI/UX Design icon">
+					<h2>UI/UX Design</h2>
+					<p>The common reference point around user expectations, business goals and data. Focus on the user and all else will fall into place.</p>
+				</div>
+
+				<div class="skillTile">
+					<img src="images/skill/screen.png" alt="Mobile and Web icon">
+					<h2>Mobile &amp; Web</h2>
+					<p>Success comes through rapid iterations, interactive prototypes and working with functional teams to reach a common goal.</p>
+				</div>
+
+				<div class="skillTile">
+					<img src="images/skill/cloud.png" alt="Illustration and Code icon">
+					<h2>Illustration &amp; Code</h2>
+					<p>I'm inspired to create things that are both useful and beautiful. Artwork or code, it should be artistic and technological.</p>
+				</div>
+
+			</div>
+		</section>
+	</main>
+
+	<!-- Footer / Contact -->
+	<span class="anchor" id="contact"></span>
+	<footer aria-label="Contact information">
+		<div id="addressContainer">
+			<span class="company">JMV Design</span>
+			<p class="footer-line light">Jeffery M. Voreis</p>
+			<p class="footer-line dark">Auckland, NZ</p>
+			<p class="footer-line dark">021-0299-4475</p>
+			<br>
+			<p class="footer-line light">jeff.voreis@gmail.com</p>
+			<p class="footer-line dark"><a href="https://www.linkedin.com/pub/jeff-voreis/53/815/362">LinkedIn Profile</a></p>
+			<p class="footer-line dark"><a href="images/contact/resume.pdf">View Resume</a></p>
+		</div>
+		<div id="mapContainer" role="img" aria-label="Map of Auckland NZ"></div>
+	</footer>
+
+</body>
+</html>
